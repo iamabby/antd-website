@@ -1,0 +1,30 @@
+.item {
+    padding:40px 20px;
+    text-align: center;
+    color: #fff;
+    
+    &.item-user {
+        background: #f0ad4e;
+    }
+
+    &.item-product {
+        background: #5cb85c;
+    }
+
+    &.item-order {
+        background: #4cb1cf;
+    }
+
+    &:hover {
+        color: #555;
+        transition: all 0.2s;
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+    .num{
+        font-size: 50px;
+    }
+    .anticon{
+        margin-right: 5px;
+    }
+}

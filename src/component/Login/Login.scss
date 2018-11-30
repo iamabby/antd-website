@@ -1,0 +1,24 @@
+.login{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 500px;
+    height: 360px;
+    padding: 50px;
+    box-sizing: border-box;
+    margin-top: -180px;
+    margin-left: -250px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    h2{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    input{
+        padding: 20px 0;
+    }
+    Button{
+        height: 50px;
+    }
+}
